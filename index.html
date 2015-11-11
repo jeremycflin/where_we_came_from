@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js – The HTML Presentation Framework</title>
+		<title>Where We Came From and Where We Went, State by State</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -16,6 +16,8 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic,600italic' rel='stylesheet' type='text/css'>
+   		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -32,6 +34,24 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+		<style>
+			.slides{
+				font-family: "Crimson Text" !important;
+			}
+			h1{
+				font-size: 1.7em !important;
+				font-family: "Libre Baskerville" !important;
+			}
+
+			img{
+				border: 0px !important;
+			}
+
+			.details{
+				margin-top: -30px !important;
+			}
+
+		</style>
 	</head>
 
 	<body>
@@ -41,18 +61,49 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+					<h1>Where We Came From and Where We Went, State by State</h1>
+						<p>Jeremy C.F. Lin</p>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
+					<p>Gregor Aisch</p>
+					<img src="assets/gregor.jpg" height="238" class="mugshot">
+					<p><small>NYT Upshot/ Graphic Editor</small></p>
+					<p class="details"><small>d3.js guru, creator of <a href="https://datawrapper.de/">Data Wrapper</a>, <a href="https://vis4.net/blog/posts/seven-features-youll-wantin-your-next-charting-tool/">Mister ChartMaker</a>.</small></p>
+				</section>
+
+				<section>
+					<p>Robert Gebeloff</p>
+					<img src="assets/robert.jpg" height="238" class="mugshot">
+					<p><small>NYT Upshot/ Data Journalist</small></p>
+					<p class="details"><small>Expert in census data.</small></p>
+				</section>
+
+
+				<section>
+					<p>Kevin Quealy</p>
+					<img src="assets/kevin.jpg" height="238" class="mugshot">
+					<p><small>NYT Upshot/ Graphic Editor</small></p>
+					<p class="details"><small>d3.js guru, also does a lot of sketching in R</small></p>
+					<p class="details"><small>Check out <a href="http://chartsnthings.tumblr.com/">chartsnthings</a> on Tumblr for his sketches</small></p>
+				</section>
+
+				<section>
+					<h2>Story</h2>
+					<ul>
+					<li>Robert came cross this dataset a long time ago, but held on to it. He ended up writing the whole copy.</li>
+					<li>Gregor and Kevin sketched the graphic and experimented with different chart forms. The final graphic was executed using d3.js.</li>
+					</ul>
+					<img src="http://gifrific.com/wp-content/uploads/2014/03/Andy-Dwyer-Saying-Great-Idea.gif" height="238">
+				</section>
+
+				<section>
+					<h2>Story Idea</h2>
+					<ul>
+					<li>Robert came cross this dataset a long time ago, but held on to it. He ended up writing the whole copy.</li>
+					<li>Gregor and Kevin sketched the graphic and experimented with different chart forms. The final graphic was executed using d3.js.</li>
+					</ul>
+					<img src="http://gifrific.com/wp-content/uploads/2014/03/Andy-Dwyer-Saying-Great-Idea.gif" height="238">
 				</section>
 
 				<!-- Example of nested vertical slides -->
